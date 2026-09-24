@@ -5,9 +5,9 @@ const GOOGLE_REVIEW_URL = "https://g.page/r/CQQNSFTPqWbqEBM/review";
 
 const prizes = [
   { label: "🌸 Parfum offert", probability: 10 },
-  { label: "🧴 Boîte de cire offerte", probability: 10 },
-  { label: "🧴 Boîte de gel offerte", probability: 10 },
-  { label: "❤️ Merci pour votre soutien, à la prochaine !", probability: 70 },
+  { label: "🧴 Boîte de cire offerte", probability: 40 },
+  { label: "🧴 Boîte de gel offerte", probability: 40 },
+  { label: "❤️ Merci pour votre soutien, à la prochaine !", probability: 5 },
 ];
 
 function pickPrize() {
